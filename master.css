@@ -312,7 +312,6 @@ footer{
 }
 .sub_01 .right_box{
   width:0;
-  height:0;
   opacity:0;
   padding-left:25px;
   animation:right_box 1.5s 1.7s forwards;
@@ -320,14 +319,10 @@ footer{
 @keyframes right_box{
     0%{
       width:0;
-      height:0;
-      border-radius:600px;
       opacity:0;
     }
     100%{
       width:50%;
-      height:495px;
-      border-radius:0;
       opacity:1;
     }
 }
